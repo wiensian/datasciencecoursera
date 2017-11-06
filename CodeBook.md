@@ -8,6 +8,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
 time domain signals | FFT frequency domain signals
 --------------------|-----------------------------
 timeBodyAcc-XYZ | freqBodyAcc-XYZ
@@ -22,8 +23,9 @@ timeBodyGyroMag | freqBodyGyroMag
 timeBodyGyroJerkMag | freqBodyGyroJerkMag
 
 In this cleaned data set, the set of variables that were extracted from the original data set, which contained more variables estimated from these signals, are: 
-mean(): Mean value
-std(): Standard deviation
+
+* mean(): Mean value
+* std(): Standard deviation
 
 Data from the original training and test data set were combined into one data set, and columns with subject identification number and descriptive activity names were added to the table.
 
