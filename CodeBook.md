@@ -22,10 +22,12 @@ timeBodyAccJerkMag | freqBodyAccJerkMag
 timeBodyGyroMag | freqBodyGyroMag
 timeBodyGyroJerkMag | freqBodyGyroJerkMag
 
-In this cleaned data set, the set of variables that were extracted from the original data set, which contained more variables estimated from these signals, are: 
+In this cleaned data set, the set of variables that were extracted from the original data set are:
 
 * mean(): Mean value
 * std(): Standard deviation
+
+The original data set contained more variables, that were estimated from the raw signals, as were the mean() and std() values above. 
 
 Data from the original training and test data set were combined into one data set, and columns with subject identification number and descriptive activity names were added to the table.
 
